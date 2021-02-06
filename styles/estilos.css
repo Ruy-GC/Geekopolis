@@ -1,0 +1,1054 @@
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  background-color: #4B609A;
+  text-align: center;
+}
+.Logo_1:hover{
+  background-color: #F142F4;
+  transition: 0.8s;
+  box-shadow: 0px 0px 20px 5px #F142F4;
+}
+.nav_options{
+  padding-right: 50px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+nav{
+  z-index: 3;
+  display: flex;
+  background-color: #2E3A5B;
+  padding:10px;
+  color: #96A7D5;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "montserrat";
+  box-shadow: 0 0 1px black;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 30px 5px #F142F4;
+  transition: 2s;
+
+}
+
+nav ul{
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 2px;
+  text-align: left;
+}
+
+nav ul li a{
+  display: block;
+  padding:  8px 25px;
+
+  color:  #96A7D5;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #F142F4;
+  text-decoration: none;
+}
+
+nav ul li ul.DropdownList{
+  min-width: 100%;
+  background: #4B609A;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  color: #4B609A;
+}
+
+nav ul li:hover ul.DropdownList{
+    display: block;
+    color: #4B609A;
+
+}
+
+nav ul li ul.DropdownList li{
+  display: block;
+  color: #4B609A;
+}
+
+nav li{
+  list-style: none;
+
+}
+
+nav img{
+  width: 150px;
+  height: 75px;
+}
+
+nav li a{
+  color:#96A7D5;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  font-size: 15px;
+  transition: 0.8s;
+}
+
+nav li a::before{
+  transition: 0.8s;
+}
+
+.main_section{
+  padding: 10%;
+  text-align: center;
+  background-image: url("../images/BackGif2.gif");
+  background-size: cover;
+  background-position: center;
+  transition: 2s;
+  font-size: 100px;
+
+}
+.main_section div h1{
+  font-size: 80px;
+  text-shadow: 0px 0px 10px #F142F4;
+}
+
+.Quien{
+  font-family: "montserrat";
+  color: #1D253A;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  width: 100%;
+  z-index: 2;
+  justify-content: center;
+  position:relative;
+  background-image: url("../images/background_pattern1.png");
+  text-align: center;
+  box-shadow: 0px 0px 30px 0px #2E3A5B;
+  padding: 10px;
+
+}
+
+.Quien h1{
+  font-size: 25px;
+  color:
+}
+.Quien p{
+  font-family: "Garamond";
+  font-size: 16px;
+}
+
+.FondoCurve{
+  background-image: url("../images/curve.png");
+  display: flex;
+  margin-top: -160px;
+  padding: 13%;
+  background-size: cover;
+  align-content: center;
+}
+
+.links{
+  justify-content: center;
+  box-align: center;
+  margin-top: -23%;
+  display: flex;
+  transform: translate(0%, 50%);
+  box-pack: center;
+  vertical-align: middle;
+  align-self: center;
+  z-index: 1;
+  text-align: center;
+}
+
+.links #content1,#content2,#content3{
+  height: 100%;
+
+}
+
+.link h1{
+  font-family: "Century Gothic"
+}
+
+.links h1:hover{
+  color: white;
+}
+
+.link{
+  width: 40%;
+  height: 400px;
+  min-width: 240px;
+  padding: 10px;
+  margin-top: -220px;
+  background-size: cover;
+  transition: 2s;
+  justify-content: center;
+
+}
+
+.link .content1:hover{
+  border: 4px solid white;
+  color: white;
+  background-color:#E5A613;
+  transition: 0.8s;
+  box-shadow: 0px 0px 30px 5px #E5A613;
+}
+
+.link .content2:hover{
+  border: 4px solid white;
+  color: white;
+  background-color:#F142F4;
+  box-shadow: 0px 0px 30px 5px #F142F4;
+  transition: 0.8s;
+}
+
+.link .content3:hover{
+  border: 4px solid white;
+  color: white;
+  background-color:#0CC0F1;
+  box-shadow: 0px 0px 30px 5px #0CC0F1;
+  transition: 0.8s;
+}
+
+.link .content2,.content1,.content3{
+ background-color: #2E3A5B;
+ padding: 15px;
+ font-size: 20px;
+ box-shadow: 0px 0px 30px 0px #2E3A5B;
+ animation: createbox .25s;
+ justify-content: center;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.link .content1 h1{
+  color:#E5A613;
+
+}
+
+.link .content2 h1{
+  color:#F142F4;
+
+}
+
+.link .content3 h1{
+  color:#0CC0F1;
+}
+
+.link .content1 p{
+  color:#96A7D5;
+  font-family: "Garamond";
+}
+
+.link .content2 p{
+  color:#96A7D5;
+  font-family: "Garamond";
+}
+
+.link .content3 p{
+  color:#96A7D5;
+  font-family: "Garamond";
+}
+
+.link .content1:hover h1{
+  color:white;
+}
+
+.link .content2:hover h1{
+  color:white;
+}
+
+.link .content3:hover h1{
+  color:white;
+}
+
+.link .content1:hover p{
+  color:white;
+  font-family: "Garamond";
+}
+
+.link .content2:hover p{
+  color:white;
+  font-family: "Garamond";
+}
+
+.link .content3:hover p{
+  color:white;
+  font-family: "Garamond";
+}
+
+/**Keyframes sirve para centrar la animacion del contenido de los links**/
+
+@keyframes createbox {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+
+}
+
+.image1 img{
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+
+}
+.image2 img{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+
+}
+.image3 img{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+
+}
+
+.home_txt{
+  margin-top: -20px;
+
+
+  font-family: "montserrat";
+  padding-bottom: 15%;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 10px #2E3A5B;
+}
+
+.carousel-item{
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.carousel-item img{
+  min-width: 100% !important;
+  min-height: 100% !important;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 10px;
+  font-family: "montserrat";
+  align-content: center;
+  margin-top: 50px;
+  z-index: 3;
+  background-color: #2E3A5B;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0px 0px 30px 5px #F142F4;
+  text-decoration: none;
+  color: #96A7D5;
+}
+footer a{
+  text-decoration: none;
+  color: #4B609A;
+  font-size: 15px;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: #4B609A;
+}
+footer h3{
+  font-size: 15px;
+}
+
+@media (max-width: 1100px){
+  .link{
+    margin-top:-10%;
+  }
+
+}
+
+a{
+  text-decoration: none;
+  color: #4B609A;
+}
+
+a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+@media(max-width: 1000px){
+    #content2_Eve{
+    margin-top: 10%;
+  }
+
+  .content2_Res{
+    margin-top: 15%;
+  }
+  .Quien{
+    margin-top: 30%;
+  }
+}
+@media(max-width:850px){
+  .main_section div h1{
+    margin-top: 20%;
+    font-size: 44px;
+    text-shadow: 0px 0px 10px #F142F4;
+  }
+  .nav_options{
+      margin-left: 15%;
+
+  }
+  nav img{
+    width: 20%;
+    height: 75px;
+  }
+  .link{
+    width: 100%;
+  }
+
+  .links{
+    margin-top: -110%;
+    display: block;
+    width: 400px;
+    max-width: 70%;
+  }
+
+  .Quien{
+      margin-top: 100%;
+  }
+
+  #l1{
+
+  }
+  #l2{
+    margin-top: 5%;
+  }
+  #l3{
+    margin-top: 5%;
+  }
+
+  /*Eventos.html*/
+  .Eve_txt{
+    margin-top: 5%;
+  }
+
+  .content1_Eve{
+    margin-top: 5%;
+  }
+
+  #content2_Eve{
+    margin-top: 25%;
+  }
+
+  /*Restaurantes.html*/
+  .Res_txt{
+    margin-top: 5%;
+  }
+
+  .content2_Res{
+    margin-top: 25%;
+  }
+
+  /*Restaurantes.html*/
+  .Lug_txt{
+    margin-top: 15%;
+  }
+
+  #content2_lug{
+    margin-top: 35%;
+  }
+
+}
+
+@media(max-width: 600px){
+  .main_section div h1{
+    margin-top: 35%;
+    font-size: 25px;
+    text-shadow: 0px 0px 10px #F142F4;
+  }
+  .FondoCurve{
+    margin-top: 50%;
+  }
+  nav a{
+    font-size: 9px;
+  }
+  .nav_options{
+      margin-left: 0%;
+  }
+  nav img{
+    width: 30%;
+    height: 75px;
+  }
+  .link{
+    width: 100%;
+  }
+
+  .links{
+    margin-top: -150%;
+    display: block;
+  }
+
+
+  .links{
+    width: 280px;
+    max-width: 280px;
+  }
+  .Quien{
+      margin-top: 115%
+  }
+
+  #l2{
+    margin-top: 40%;
+  }
+  #l3{
+    margin-top: 5%;
+  }
+
+  .Quien{
+     margin-top: 150%;
+  }
+
+
+  /*Eventos.html*/
+
+  .Eve_txt{
+    margin-top: 15%;
+  }
+
+  .content1_Eve{
+    margin-top: 15%;
+    width: 70%;
+  }
+
+  #content2_Eve{
+    margin-top: 45%;
+    width: 70%;
+  }
+
+  /*Restaurantes.html*/
+  .Res_txt{
+    margin-top: 15%;
+  }
+
+  .content2_Res{
+    margin-top: 65%;
+  }
+
+  /*Lugares.html*/
+  .Lug_txt{
+    margin-top: 15%;
+  }
+
+  #content2_lug{
+    margin-top: 100%;
+  }
+
+}
+
+
+/**
+
+                    Estilo de Eventos.html
+
+**/
+
+.main_section_Eve{
+  padding: 10%;
+  text-align: center;
+  background-image: url("../images/BackGif14.gif");
+  background-size: cover;
+  background-position: center;
+  transition: 2s;
+}
+
+.Eve_txt h1{
+  font-size: 70px;
+  text-shadow: 0px 0px 10px #E5A613;
+  color: white;
+}
+
+.Eve_txt p{
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  text-shadow: 0px 0px 10px black;
+}
+
+
+.FondoCurve{
+  margin-top: -110px;
+}
+
+.Contenido_Eve{
+  z-index: 2.5;
+  margin-top: -29%;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  height: 200px;
+  font-style: "Georgia";
+}
+
+.blog_Eve{
+  display: grid;
+  transition: 2s;
+  padding: 15px;
+  margin-bottom: 10%;
+}
+
+.blog_Eve h1{
+  font-size: 100px;
+  text-shadow: 0px 0px 10px #E5A613;
+}
+
+.content1_Eve h1{
+  color:white;
+  font-style: "Garamond";
+  font-size: 30px;
+}
+
+.content1_Eve p{
+  color:#96A7D5;
+  text-align: justify;
+  font-size: 12px;
+
+}
+.content1_Eve ul{
+  display: inline-block;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  list-style-image:url("../images/Bullets_Icon.gif");
+  /*list-style-image: url("../images/Restaurantes.gif");*/
+
+}
+ .content1_Eve{
+  background-color: #2E3A5B;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0px 0px 30px 0px #2E3A5B;
+  animation: createbox .25s;
+  display: block;
+  z-index: 1;
+
+}
+
+.SlideshowSpace2{
+  width: 100%;
+}
+.content1_Eve .Contacto1_Eve{
+  text-align: center;
+  background-image: url("../images/background_pattern1.png");
+  padding: 15px;
+  width: 100%;
+  height: 75px;
+  border-radius: 40px;
+  margin-top: 5%;
+  display: block;
+  z-index: 0;
+}
+
+.Contenido_Eve2{
+  margin-bottom: 10%;
+}
+
+.SlideshowSpace{
+  display: inline-block;
+  padding: 15px;
+  border-color: white 1px solid;
+  width:400px;z
+
+}
+
+.SlideshowSpace img{
+  width: 100%;
+}
+
+.Slide1yul_Eve{
+   display: flex;
+
+}
+
+.Mediayul2_Eve{
+ width: 100%;
+}
+
+.Contenido_Eve2{
+  margin-top: 35%;
+  z-index: 2.5;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  height: 200px;
+  font-style: "Georgia";
+}
+
+.MediaSpace2{
+  padding: 15px;
+  width: 50%;
+  height: 35%;
+}
+
+/**
+
+                        Estilo de Restaurantes.html
+
+**/
+
+.main_section_Res{
+  padding: 10%;
+  text-align: center;
+  background-image: url("../images/BackGif12.gif");
+  background-size: cover;
+  background-position: center;
+  transition: 2s;
+}
+
+.Res_txt h1{
+  font-size: 70px;
+  text-shadow: 0px 0px 10px #F142F4;
+  color: white;
+}
+.Res_txt p{
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  text-shadow: 0px 0px 10px black;
+}
+.Contenido_Res{
+  z-index: 2.5;
+  margin-top: -19%;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+  height: 200px;
+  font-style: "Georgia";
+}
+
+.blog_Res{
+  display: grid;
+  transition: 2s;
+  padding: 15px;
+}
+
+.content1_Res h1{
+  color:white;
+  font-style: "Garamond";
+  font-size: 30px;
+}
+.content1_Res p{
+  color:white;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'EB Garamond', serif;
+
+}
+.content1_Res ul{
+  display: inline-block;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  list-style-image:url("../images/Bullets_Icon.gif");
+  /*list-style-image: url("../images/Restaurantes.gif");*/
+
+}
+.content1_Res{
+  background-color: #2E3A5B;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0px 0px 30px 0px #2E3A5B;
+  animation: createbox .25s;
+  display: block;
+  z-index: 1;
+
+}
+
+.content1_Res .Contacto1_Res{
+  text-align: center;
+  background-image: url("../images/background_pattern1.png");
+  padding: 15px;
+  width: 100%;
+  height: 75px;
+  border-radius: 40px;
+  margin-top: 5%;
+  display: block;
+  z-index: 0;
+
+}
+
+.content2_Res h1{
+  color:white;
+  font-style: "Garamond";
+  font-size: 20px;
+}
+.content2_Res p{
+  color:white;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'EB Garamond', serif;
+
+}
+.content2_Res ul{
+  display: inline-block;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  list-style-image:url("../images/Bullets_Icon.gif");
+  /*list-style-image: url("../images/Restaurantes.gif");*/
+
+}
+.content2_Res{
+  background-color: #2E3A5B;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0px 0px 30px 0px #2E3A5B;
+  animation: createbox .25s;
+  display: block;
+  z-index: 1;
+
+}
+
+.SlideshowSpaceRes1{
+  display: inline-block;
+  padding: 15px;
+}
+
+.SlideshowSpaceRes1 img{
+  width: 100%;
+}
+
+ .Slide1yul_Res{
+
+}
+.Contenido_Res{
+  margin-top: -15%;
+}
+
+.Mediayul2_Res{
+ width: 100%;
+}
+
+.Contenido_Res2{
+  margin-top: 70%;
+  z-index: 2.5;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+  height: 200px;
+
+}
+
+.MediaSpace2{
+  padding: 15px;
+  width: 50%;
+  height: 35%;
+}
+
+.content1_Eve .Contacto1_Res,.Contacto2_Res{
+  text-align: center;
+  background-image: url("../images/background_pattern1.png");
+  padding: 15px;
+  width: 100%;
+  height: 75px;
+  border-radius: 40px;
+  margin-top: 5%;
+  display: block;
+  z-index: 0;
+}
+
+.PekoPekoHeader{
+  display:flex;
+}
+
+.PekoPekoHeader h1{
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px #F142F4;
+}
+
+.imgPekoLogo{
+  padding: 15px;
+  width: 15%;
+  height: 15%;
+}
+.h1Peko{
+  align-items: center;
+  padding: 5%
+
+}
+#carouselPekoFood{
+  max-height: 45%;
+}
+.carousel-caption h5{
+  color: white;
+  text-shadow: 0px 0px 40px black;
+  font-size: 20px;
+
+}
+
+/**
+
+                              Estilo de Lugares.html
+
+**/
+
+.main_section_Lug{
+  padding: 10%;
+  text-align: center;
+  background-image: url("../images/BackGif5.gif");
+  background-size: cover;
+  background-position: center;
+  transition: 2s;
+}
+
+.Lug_txt h1{
+  font-size: 70px;
+  text-shadow: 0px 0px 10px #0CC0F1;
+  color: white;
+}
+
+.Contenido_Lug{
+  z-index: 2.5;
+  margin-top: -19%;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+  height: 200px;
+  font-style: "Georgia";
+}
+
+.Contenido_Lug h1{
+  font-family: "montserrat";
+}
+
+.Contenido_Lug2 h1{
+  font-family: "montserrat";
+}
+
+.blog_Lug{
+  display: grid;
+  transition: 2s;
+  padding: 15px;
+  font-family: garamond;
+}
+
+.content1_Lug h1{
+  color:white;
+  font-style: "Garamond";
+  font-size: 30px;
+}
+
+.content1_Lug p{
+  color:#96A7D5;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.content1_Lug ul{
+  display: inline-block;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  list-style-image:url("../images/Bullets_Icon.gif");
+  /*list-style-image: url("../images/Restaurantes.gif");*/
+
+}
+ .content1_Lug{
+  background-color: #2E3A5B;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0px 0px 30px 0px #2E3A5B;
+  animation: createbox .25s;
+  display: block;
+  z-index: 1;
+}
+
+.content1_Lug h1 b{
+  text-shadow: 0px 0px 10px #0CC0F1;
+  font-size: 40px;
+}
+
+.content1_Lug p{
+  font-size: 16px;
+}
+
+.content1_Lug ul{
+  font-size: 16px;
+}
+
+.content1_Lug .Contacto1_Lug{
+  text-align: center;
+  background-image: url("../images/background_pattern1.png");
+  padding: 15px;
+  width: 100%;
+  height: 75px;
+  border-radius: 40px;
+  margin-top: 5%;
+  display: block;
+  z-index: 0;
+}
+
+.Contacto1_Lug p{
+  font-family: "montserrat";
+  text-align: center;
+  font-size: 20px;
+}
+
+.Contacto2_Lug p{
+  font-family: "montserrat";
+  text-align: center;
+  font-size: 20px;
+}
+
+.Contacto1_Lug h1{
+  font-family: "montserrat";
+}
+.Contacto2_Lug h1{
+  font-family: "montserrat";
+}
+.SlideshowSpaceLug1{
+  display: inline-block;
+  padding: 15px;
+}
+
+.SlideshowSpaceLug1 img{
+  width: 100%;
+}
+
+ .Slide1yul_Lug{
+   display: flex;
+}
+
+.Contenido_Lug2{
+  margin-top: 35%;
+  z-index: 2.5;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+  height: 200px;
+  font-style: "Georgia";
+}
+
+.MediaSpace2{
+  padding: 15px;
+  width: 50%;
+  height: 35%;
+}
+
+.content1_Lug p{
+  font-size: 16px;
+}
